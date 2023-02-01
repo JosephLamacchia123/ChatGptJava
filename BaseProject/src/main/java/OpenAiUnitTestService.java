@@ -7,7 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class OpenAiUnitTestService {
-    private static final String API_KEY = "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";
+    private static final String API_KEY = "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";
     private static final String MODEL = "text-davinci-002";
 
     public static CompletionResponse getUnitTests(String method) throws UnirestException, IOException {
